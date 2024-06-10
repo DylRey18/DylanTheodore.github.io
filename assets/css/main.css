@@ -2262,6 +2262,32 @@ input, select, textarea {
 		ol li {
 			padding-left: 0.25em;
 		}
+	
+
+	ul.nodots{
+		list-style-type: none; /* Remove bullets */
+ 		 padding: 0; /* Remove padding */
+ 		 margin: 0; /* Remove margins */
+	}
+
+	ul.nodotspad{
+		list-style-type: none; /* Remove bullets */
+		padding-left: 1em;
+		margin: 0;
+	}
+		ul li{
+			font-size: 25px;
+			
+		}
+
+	ul.nodotsSpace{
+		list-style-type: none; /* Remove bullets */
+		padding-left: 9em;
+	}
+		ul li{
+			font-size: 25px;
+			
+		}
 
 	ul {
 		list-style: disc;
